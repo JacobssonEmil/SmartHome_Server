@@ -11,7 +11,7 @@ app.post('/lamp', (req, res) => {
     // Logic to communicate with Arduino goes here
 
     // Send response back to client
-    res.json({ message: `Lamp turned "${state}"` });
+    res.json({ message: `Lamp turned TEMP` });
 });
 
 // Start the server
